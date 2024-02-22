@@ -49,3 +49,84 @@
 2024-02-19 19:41:41 [INFO]: User logged in: noel
 2024-02-19 19:47:09 [INFO]: New user created with name: Nöel and email: noel.ponce.gonzalez@gmail.com
 2024-02-19 19:47:15 [INFO]: User logged in: Nöel
+2024-02-20 18:32:21 [INFO]: User logged in: noel
+2024-02-20 19:35:01 [INFO]: User logged in: noel
+2024-02-20 19:35:52 [INFO]: User logged in: noel
+2024-02-20 19:36:56 [ERROR]: Error login with user with name: noel
+2024-02-20 19:37:55 [INFO]: User logged in: noel
+2024-02-20 19:38:02 [ERROR]: Error login with user with name: noel
+2024-02-20 19:39:54 [ERROR]: Error login with user with name: noel
+2024-02-20 19:39:56 [ERROR]: Error login with user with name: noel
+2024-02-20 19:43:01 [INFO]: User logged in: noel
+2024-02-20 19:43:05 [ERROR]: Error login with user with name: noel
+2024-02-20 19:44:37 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-20 19:50:51 [INFO]: User logged in: noel
+2024-02-20 19:50:55 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-20 19:51:50 [INFO]: User logged in: noel
+2024-02-20 19:51:54 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-20 19:53:03 [INFO]: User logged in: noel
+2024-02-20 19:53:08 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-20 19:54:27 [INFO]: User logged in: noel
+2024-02-20 19:54:31 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-20 19:55:33 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-20 19:55:34 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-20 19:55:35 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-20 19:58:18 [INFO]: User logged in: noel
+2024-02-20 19:58:56 [INFO]: User logged in: noel
+2024-02-20 19:59:41 [INFO]: User logged in: noel
+2024-02-20 20:03:50 [INFO]: User logged in: noel
+2024-02-20 20:24:01 [INFO]: Invalid password for user noel
+2024-02-20 20:24:05 [INFO]: Invalid password for user noel
+2024-02-21 18:47:12 [INFO]: User logged in: noel
+2024-02-21 19:06:15 [INFO]: User logged in: noel
+2024-02-21 19:06:25 [INFO]: New task added in category Staff
+2024-02-21 19:06:32 [INFO]: User logged in: noel
+2024-02-21 19:09:10 [INFO]: User logged in: noel
+2024-02-21 19:09:34 [INFO]: User logged in: noel
+2024-02-21 19:10:08 [INFO]: User logged in: noel
+2024-02-21 19:10:31 [INFO]: User logged in: noel
+2024-02-21 19:14:04 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:14:31 [INFO]: User logged in: noel
+2024-02-21 19:15:14 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:15:15 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:15:16 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:15:16 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:15:29 [INFO]: New task added in category Staff
+2024-02-21 19:17:12 [INFO]: New task added in category Staff
+2024-02-21 19:18:20 [INFO]: New task added in category Staff
+2024-02-21 19:28:46 [INFO]: User logged in: noel
+2024-02-21 19:31:33 [INFO]: User logged in: noel
+2024-02-21 19:35:26 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:37:04 [INFO]: User logged in: noel
+2024-02-21 19:41:08 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:41:09 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:43:12 [INFO]: New task added in category Staff
+2024-02-21 19:46:47 [INFO]: User logged in: noel
+2024-02-21 19:49:12 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:49:17 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:49:23 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:49:26 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:49:39 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:49:56 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:02 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:05 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:22 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:31 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:33 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:34 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:35 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:36 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:37 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:48 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:50:49 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:51:01 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:52:28 [INFO]: User logged in: noel
+2024-02-21 19:52:32 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:52:33 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:52:34 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:52:52 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:53:06 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 19:56:02 [INFO]: User logged in: noel
+2024-02-21 20:00:24 [ERROR]: Error al agregar tarea con nombre de usuario: noel
+2024-02-21 20:26:44 [INFO]: New task added in category Today
+2024-02-21 20:28:42 [ERROR]: Error al agregar tarea con nombre de usuario: noel

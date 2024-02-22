@@ -7,6 +7,7 @@ import config from './config';
 import databaseConnection from './database/dabatase';
 
 import authRoutes from './routes/auth';
+import tasksRoutes from './routes/tasks';
 
 const app = exrpess();
 
@@ -21,6 +22,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 app.use('/auth', authRoutes);
+app.use('/tasks', tasksRoutes);
 
 app.listen(config.PORT, () => {
     console.log(`server is running at port ${config.PORT}`);
