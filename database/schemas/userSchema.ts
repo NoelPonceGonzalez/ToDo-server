@@ -1,6 +1,7 @@
 import mongoose, { Document, Schema } from "mongoose";
 
 interface INote {
+    _id: mongoose.Types.ObjectId,
     category: 'Staff' | 'Today' | 'Work' | 'Shopping' | 'Planed' | 'Home';
     title: string;
     text: string;

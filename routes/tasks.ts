@@ -1,4 +1,5 @@
 import  express, {Request, Response} from 'express';
+import mongoose from 'mongoose';
 
 import User from '../database/schemas/userSchema';
 
@@ -19,6 +20,7 @@ router.post('/addTasks', async (req: Request, res: Response) => {
         const newUser = new User(user);
 
         const newTask = {
+            _id: new mongoose.Types.ObjectId(), 
             category: category,
             title: title,
             text: text,
@@ -51,12 +53,41 @@ router.get('/showTasks', async (req: Request, res: Response) => {
             return res.status(404).json({ success: false, error: 'User not found' });
         }
 
-        // Verifica si 'user.notes' existe antes de intentar acceder a sus valores
         const userTasks = user.notes || [];
 
         return res.status(200).json({ success: true, tasks: userTasks });
     } catch (error: any) {
         logger.error('Error retrieving tasks');
+        return res.status(500).json({ success: false, error: 'Internal server error', mongooseError: error.message });
+    }
+});
+
+router.delete('/deleteTasks', async (req: Request, res: Response) => {
+    const { name, taskId } = req.query;
+
+    try {
+        if (!taskId) {
+            logger.error('no task');
+            return res.status(404).json({ success: false, error: 'User not found' });
+        }
+
+        const user = await User.findOne({ name });
+
+        if (!user) {
+            logger.error('Error user not found tasks');
+            return res.status(404).json({ success: false, error: 'User not found' });
+        }
+
+        const updatedNotes = user.notes.filter(task => task._id.toString() !== taskId);
+
+        user.notes = updatedNotes;
+
+        await user.save();
+
+        logger.info(`task deleted from user ${name}`);
+        return res.status(200).json({ success: true, message: 'Task deleted successfully' });
+    } catch (error: any) {
+        logger.error('Error deleting tasks');
         return res.status(500).json({ success: false, error: 'Internal server error', mongooseError: error.message });
     }
 });
